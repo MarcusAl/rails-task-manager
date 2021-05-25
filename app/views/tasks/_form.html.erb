@@ -1,0 +1,5 @@
+<%= form_for(@task) do |t| %>
+  <%= t.text_field :title, :required => true, placeholder: 'Title' %>
+  <%= t.text_field :details, :required => true, placeholder: 'Details' %>
+  <%= t.submit %>
+<% end %>
